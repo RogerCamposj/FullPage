@@ -1,0 +1,57 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+h1:nth-child(2n){
+    color: black;
+}
+
+.s1 {
+    background-image: url('../imgs/florian-klauer-LmkaYtMpNS8-unsplash.jpg');
+    background-size: cover;
+
+}
+
+:nth-child(2n){
+    background-image: url('../imgs/keagan-white.jpg');
+    background-size: cover;
+    
+}
+
+:nth-child(3n){
+    background-image: url('../imgs/jakob-owens-9pRbuWJ6TvQ-unsplash.jpg');
+    background-size: cover;
+}
+
+.s2 {
+    background-image: url('../imgs/markus-spiske-W3iFJ-LAzNo-unsplash.jpg');
+    background-size: cover;
+
+
+}
+.s2 h1{
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4em;
+
+}
+
+.s3 {
+    background-image: url('../imgs/omar-prestwich-ZzGFUVMV-ao-unsplash.jpg');
+    background-size: cover;
+}
+
+.s3 h1{
+    text-align: left;
+    margin-left: 2em;
+    font-size: 2em;
+
+}
+
+span{
+    background-color: white !important;
+}
